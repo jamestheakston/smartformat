@@ -6,7 +6,6 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>app.ico</ApplicationIcon>
     <AssemblyName>SmartFormat</AssemblyName>
     <RootNamespace>SmartFormat</RootNamespace>
     <Version>1.0.0</Version>
