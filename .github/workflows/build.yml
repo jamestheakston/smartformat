@@ -26,7 +26,7 @@ jobs:
 
       - name: Publish as single-file executable
         run: |
-          dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishReadyToRun=true -o ./publish
+          dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishReadyToRun=true /p:IncludeNativeLibrariesForSelfExtract=true -o ./publish
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
